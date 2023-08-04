@@ -1,0 +1,21 @@
+
+.main-container{
+    height: 10vh;
+    width: 100%;
+    .header-content{
+        height: 100%;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #625f96;
+        h1{
+          font-weight: 600;
+          
+            color: #fff;
+        }i{
+            color: #fff;
+        }
+    }
+    
+}

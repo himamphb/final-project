@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    position: relative;
+}
+.bottom-container{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 49, 47);
+    color: #fff;
+    // border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+   
+   .MuiBottomNavigationAction-label.MuiBottomNavigationAction-iconOnly{
+    opacity: 1;
+    // color: black;
+   }
+   .MuiBottomNavigation-root{
+    background-color:transparent;
+    
+   }
+}

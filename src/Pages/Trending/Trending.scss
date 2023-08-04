@@ -1,0 +1,7 @@
+.trending-container{
+    background-color:rgb(181, 206, 198);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 2rem;
+    padding: 5rem;
+}
