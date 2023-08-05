@@ -14,7 +14,7 @@ export default class Trending extends Component {
   componentDidMount() {
     axios
       .get(
-        "https://api.themoviedb.org/3/trending/movie/day?api_key=2b1d687ff77b9dccf46e1bd833a09953"
+        "https://api.themoviedb.org/3/trending/all/day?api_key=2b1d687ff77b9dccf46e1bd833a09953"
       )
       .then((res) => {
         console.log(res.data);

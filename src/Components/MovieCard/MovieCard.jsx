@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './MovieCard.scss'
-import stimage from "../../Images/stimage.jpg"
 
 export default class MovieCard extends Component {
   render() {
